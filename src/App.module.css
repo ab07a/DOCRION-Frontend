@@ -1,0 +1,11 @@
+.app {
+  display: grid;
+  grid-template-rows: 52px 1fr;
+  height: 100vh;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  overflow: hidden;
+}
