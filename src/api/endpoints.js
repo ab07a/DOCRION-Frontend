@@ -1,4 +1,4 @@
-const API_BASE = 'https://clever-ultimate-mole.ngrok-free.app';
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 export async function uploadPdf(file) {
   const formData = new FormData();
